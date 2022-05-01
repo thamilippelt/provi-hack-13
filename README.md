@@ -19,6 +19,7 @@ Crie um fork desse repositório em sua máquina e ao abrir rode o comado *npm in
 
 
 ## Link do projeto no Surge
-[roupartilhar.surge.sh]
+[https://roupartilhar.surge.sh]
+
 ## Imagens do projeto
 
