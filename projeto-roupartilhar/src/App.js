@@ -2,20 +2,27 @@ import Button from '@mui/material/Button';
 import logo from './assets/logo.png'
 import { AppContainer, ButtonContainer, ImgLogo, InfosContainer, MiddleContainer, SubTitle } from './styled'
 import circular from './assets/economia-circular.png'
+import Header from './components/Header/Header';
+import { useHistory } from 'react-router-dom';
+import { goToSignUp } from './router/coordinator';
 
 function App() {
-  // goToSignUp(e){
+  const history = useHistory()
 
-  // }
+  const buttonAction = () => {
+    goToSignUp(history)
+  }
+
   return (
     <AppContainer>
+      <Header/>
       <ImgLogo src={logo} />
       <SubTitle>
         <h1>ser elegante é ajudar o <u>mundo</u>. </h1>
         <h6>CATALOGUE, COMPARTILHE, CUIDE DE SUAS ROUPAS E DO NOSSO PLANETA!</h6>
       </SubTitle>
       <ButtonContainer>
-        <Button variant="contained" color="success" >Cadastre-se</Button>
+        <Button variant="contained" color="success" onClick={() => buttonAction()} >Cadastre-se</Button>
       </ButtonContainer>
 
 
