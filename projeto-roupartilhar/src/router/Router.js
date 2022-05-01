@@ -12,7 +12,7 @@ const Router = () => {
                 <Route exact path={"/"}  >
                         <HomePage />
                     </Route>
-                    <Route exact path={"/login"} component={() => <h1>Login</h1>} >
+                    <Route exact path={"/login"} >
                         <LoginPage />
                     </Route>
                     <Route exact path={"/cadastro"}>
