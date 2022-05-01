@@ -32,8 +32,12 @@ function HomePage() {
 
 
             <MiddleContainer>
-                <h3>procurando uma roupa para festa?</h3>
-                <h1>Você sabia que 50% - 80% das roupas de festa são usadas apenas UMA vez?</h1>
+                <h1>Procurando uma roupa para festa?</h1>
+                <h4>Queremos inspirar uma nova geração de consumidores de moda para pensar primeiro em peças
+                    de segunda mão. Trabalhamos por uma indústria da moda limpa, segura, justa, transparente e responsável, através do incentivo à
+                    moda ciscurlar e sustentável.
+                </h4>
+                <h3>Se a moda nos ajuda a expressar quem somos e o que defendemos, então nossas escolhas de roupas são importantes. </h3>
             </MiddleContainer>
             <>
                 <SubTitleText>
@@ -55,7 +59,7 @@ function HomePage() {
                     </h2>
                 </SubTitleText>
                 <InfosContainer>
-                <ImgSubText src={imgDois} />
+                    <ImgSubText src={imgDois} />
                     <p>
                         Somos um time de pessoas preocupadas com o planeta que encontrou na moda circular uma forma de inspirar a mudança.
                         Aqui é o lugar ideal para um garimpo perfeito, onde você encontra tudo da moda feminina por preços incríveis e em excelente estado.
@@ -66,7 +70,7 @@ function HomePage() {
                         A Roupartilhar nasceu para que todas as mulheres tenham acesso à produtos exclusivos por preços incríveis! Nossa proposta é movimentar aquelas peças lindas que estão paradas nos guarda roupas e fazê-las circular.
 
                     </p>
-                  
+
                 </InfosContainer>
             </>
             <ProductText>
@@ -79,6 +83,9 @@ function HomePage() {
                 <ImgSubText src={roupaQuatro} />
                 <ImgSubText src={roupaCinco} />
             </ProductSection>
+            <ButtonContainer>
+                <Button variant="contained" color="success">Ver todos os produtos</Button>
+            </ButtonContainer>
         </>
 
     );

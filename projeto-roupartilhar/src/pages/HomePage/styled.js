@@ -15,6 +15,10 @@ export const SubTitle = styled.section`
     font-size: 1.5rem;
     line-height: 1.2;
     font-weight: bolder;
+    .h4 {
+      margin: 60px;
+      max-width: 30%;
+    }
 `
 
 export const MiddleContainer = styled.section`
@@ -26,6 +30,7 @@ export const MiddleContainer = styled.section`
   font-weight: 400;
   line-height: 1.5;
   text-align: center;
+
 `
 export const ButtonContainer = styled.section`
   display: flex;
@@ -44,7 +49,7 @@ export const InfosContainer = styled.section`
 export const SubTitleText = styled.section`
   display: flex;
   margin-left: 60px;
-  margin-top: 20px;
+  margin-top: 40px;
   color: #71ba5b;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  
