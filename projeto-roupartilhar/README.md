@@ -14,7 +14,6 @@ Crie um fork desse repositório em sua máquina e ao abrir rode o comado *npm in
 
 ## Desenvolvedores
 -Thamires Lippelt Vieira
--Jeffrey Lima
 
 ## Link do projeto no Surge
 

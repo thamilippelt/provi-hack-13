@@ -1,7 +1,7 @@
 import { useHistory } from 'react-router-dom';
 import Button from '@mui/material/Button';
 import logo from '../../assets/logo.png'
-import { ButtonContainer, ImgLogo, InfosContainer, MiddleContainer, SubTitle, SubTitleText, ImgSubText, ProductSection } from './styled'
+import { ButtonContainer, ImgLogo, InfosContainer, MiddleContainer, SubTitle, SubTitleText, ImgSubText, ProductSection, ProductText } from './styled'
 import { goToSignUp } from '../../router/coordinator';
 import imgUm from '../../assets/01.png'
 import imgDois from '../../assets/02.png'
@@ -55,6 +55,7 @@ function HomePage() {
                     </h2>
                 </SubTitleText>
                 <InfosContainer>
+                <ImgSubText src={imgDois} />
                     <p>
                         Somos um time de pessoas preocupadas com o planeta que encontrou na moda circular uma forma de inspirar a mudança.
                         Aqui é o lugar ideal para um garimpo perfeito, onde você encontra tudo da moda feminina por preços incríveis e em excelente estado.
@@ -65,12 +66,12 @@ function HomePage() {
                         A Roupartilhar nasceu para que todas as mulheres tenham acesso à produtos exclusivos por preços incríveis! Nossa proposta é movimentar aquelas peças lindas que estão paradas nos guarda roupas e fazê-las circular.
 
                     </p>
-                    <ImgSubText src={imgDois} />
+                  
                 </InfosContainer>
             </>
-            <SubTitleText>
+            <ProductText>
                 <h2>Produtos</h2>
-            </SubTitleText>
+            </ProductText>
             <ProductSection>
                 <ImgSubText src={roupaUm} />
                 <ImgSubText src={roupaDois} />
