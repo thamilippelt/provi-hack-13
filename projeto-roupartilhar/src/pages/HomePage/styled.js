@@ -34,5 +34,31 @@ export const ButtonContainer = styled.section`
 `
 export const InfosContainer = styled.section`
   display: flex;
+  margin: 20px  100px;
+  bottom: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  color: #2d3830;
+`
+export const SubTitleText = styled.section`
+  display: flex;
+  margin-left: 60px;
+  margin-top: 20px;
+  color: #2d3830;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+`
+export const ImgSubText = styled.img`
+  max-width: 80vw;
+  max-height: 50vh;
+`
+export const ProductSection = styled.section`
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: space-between;
+    align-items: center;
+
   
 `
